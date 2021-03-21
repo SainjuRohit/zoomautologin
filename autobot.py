@@ -1,8 +1,8 @@
-import pyautogui
+import pyautogui #pyautogui is package that is used to automate the stuff by using the mouse to point to specific location.
 import time
 
 # For meeting ID
-meet_id = '2337926896'
+meet_id = '' #Place the meet id
 pyautogui.press('esc',interval=0.1)
 
 time.sleep(0.2)
@@ -19,9 +19,6 @@ print('you are here')
 
 
 # This will verify the join buttom
-
-# x,y = pyautogui.locateOnScreen('JoinAMeeting.png')
-# pyautogui.click(x,y)
 
 pyautogui.press('enter',interval=1)
 pyautogui.write(meet_id)
